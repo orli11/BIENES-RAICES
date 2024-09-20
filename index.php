@@ -192,5 +192,5 @@
         </section>
     </div>
 <?php 
-    include 'includes/templates/footer.php'; 
+    incluir_template('footer');
 ?>

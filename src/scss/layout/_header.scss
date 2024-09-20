@@ -1,9 +1,8 @@
-.no-webp .inicio{
-    background-image: url('../img/header.jpg');
+.no-webp .inicio {
+    background-image: url(../img/header.jpg);
 }
- 
-.webp .inicio{
-    background-image: url('../img/header.webp');
+.webp .inicio {
+    background-image: url(../img/header.webp);
 }
 
 .header {
@@ -13,6 +12,7 @@
     &.inicio {
         background-position: center center;
         background-size: cover;
+
         @include tablet {
             min-height: 70rem;
         }
@@ -29,11 +29,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     h1 {
         text-align: left;
-        font-weight: $bold;
         color: $blanco;
+        font-weight: $bold;
         line-height: 2;
         max-width: 60rem;
     }
